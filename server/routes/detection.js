@@ -35,7 +35,7 @@ const detection = async (req, res) => {
 
     // Process predictions
     const detections = data.predictions.map((prediction) => ({
-      brand: prediction.class,
+      brand: prediction.class
       // expiry_date: extractExpiryDate(prediction.text),
       // count: prediction.count,
       // expired: isExpired(prediction.text),

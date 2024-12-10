@@ -11,7 +11,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: ["https://glittery-pudding-c62e50.netlify.app/"],
+  origin: ["https://glittery-pudding-c62e50.netlify.app"],
   methods: ["POST", "GET", "PUT", "DELETE"],
   credentials: true,
 }));
