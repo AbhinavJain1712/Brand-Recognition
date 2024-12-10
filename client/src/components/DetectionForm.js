@@ -22,7 +22,7 @@ const DetectionForm = ({ onDetect }) => {
     setLoading(true);
     try {
       // Axios POST request
-      const response = await axios.post("http://localhost:5000", formData, {
+      const response = await axios.post("https://brand-recognition.onrender.com/", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
